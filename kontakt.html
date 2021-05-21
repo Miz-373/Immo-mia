@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Immo Mia | Kontakt </title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="Stylesheet" type="text/css" href="css/kontakt.css">
+</head>
+<body>
+	<header>
+      <!--             Navbar + Burger              -->
+        <nav>
+            <div class="logo">
+              <img src="img/header-logo/logo-imo.png">
+            </div>
+            <ul class="nav-links">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+              <li>
+                <a href="sign.html">Sign In / Up</a>
+              </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+      </nav>
+</header>
+      <!--             Navbar + Burger ended           -->
+
+      <!--            Contact Form                     -->
+<section id="contact">
+  <div class="container">
+      <h2>Kontaktieren uns Mit dieser Formular</h2>
+
+      <div class="flex">
+          <div id="form-container">
+              <h3>Freut uns Ihre Meinung dazu :</h3>
+              <form class="register" method="post">
+                  <label for="firstname">Vorname</label>
+                  <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Geben Sie Ihren Vorname ein">
+                  <small class="form-text ">*Empty Input*</small>
+
+                  <label for="lastname">Nachname</label>
+                  <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Geben Sie Ihren Nachname ein">
+                  <small class="form-text ">*Empty Input*</small>
+
+                  <label for="email">Email</label>
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Geben Sie Ihren Email ein">
+                  <small class="form-text">*Empty Input*</small>
+
+                  <label for="subject">Subjekt</label>
+                  <input type="text" id="subject" class="form-control" placeholder="Geben Sie Ihren Subjekt ein">
+
+                  <label for="message">Nachricht</label>
+                  <textarea class="form-control" id="message" placeholder="Schreibe deine Nachricht hier.."></textarea>
+
+                  <button class="rounded">Nachricht Senden</button>
+              </form>
+          </div>
+
+          <div id="address-container">
+            <label>Adresse</label>
+              <address>
+                 Feldstraße 66, 20359 Hamburg, Germany
+              </address>
+
+              <label>Telefon</label>
+              <a href="#">040-6481-66486</a>
+
+              <label>Email Adresse</label>
+              <a href="#">Kunden-service@Immo-Mia.de</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--            Contact Form Ended                 -->
+
+<!--                  Footer                       -->
+<footer>
+    <div class="flex container">
+        <div class="footer-about">
+            <h5>Über Mein Immo</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+        </div>
+
+        <div class="footer-quick-links">
+            <h5>Quick Links</h5>
+            <ul>
+                <li><a href="#">Über Uns</a></li>
+                <li><a href="#">Leistungen</a></li>
+                <li><a href="#">Referenzen</a></li>
+                <li><a href="#">Kontaktiere uns</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-subscribe">
+            <h5>Abonniere unseren Newsletter</h5>
+            <div id="subscribe-container">
+                <input type="text" placeholder="Enter Email" />
+                <button class="right-rounded">Senden</button>
+            </div>
+
+            <h5 class="follow-us">Folge Uns</h5>
+            <ul>
+                <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <small>
+            Copyright &copy; 2020 Alle Rechte vorbehalten | by <a href="https://www.sae.edu/deu/de/campus/hamburg">Immo Mia</a>
+        </small>
+        <i class="fa fa-angle-up" aria-hidden="true" id="back-to-top" onclick="scrollToTop();return false;"></i>
+    </footer>
+<!--            Footer Ended                     -->
+    <script src="js/script.js" charset="utf-8"></script>
+    <script src="js/kontakte.js" charset="utf-8"></script>
+</body>
+</html>

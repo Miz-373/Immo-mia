@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Einloggen | Anmelden</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/sign.css">
+
+  </head>
+  <body>
+    <header>
+            <nav>
+                  <div class="logo">
+                      <img src="img/header-logo/logo-imo.png">
+                  </div>
+              <ul class="nav-links">
+                  <li>
+                      <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                      <a href="gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                      <a href="kontakt.html">Kontakt</a>
+                  </li>
+                  <li>
+                      <a href="sign.html">Sign In / Up</a>
+                  </li>
+              </ul>
+                  <div class="burger">
+                      <div class="line1"></div>
+                      <div class="line2"></div>
+                      <div class="line3"></div>
+                  </div>
+              </nav>
+      </header>
+
+  <div class="container" id="container">
+
+    <!--                  Start Sign up Container              -->
+   <div class="form-container sign-up-container">
+    <form action="#" class="register" method="post">
+     <h1>Benutzerkonto Anlegen</h1>
+     <div class="social-container">
+      <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+      <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+      <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+     </div>
+     <span>oder verwenden Sie Ihre E-Mail-Adresse für die Registrierung</span>
+     <input type="text" placeholder="Vorname" class="form-control " name="firstname" id="firstname">
+      <small class="form-text">Empty Input</small>
+     <input type="text" placeholder="Nachname" class="form-control" name="lastname" id="lastname">
+      <small class="form-text">Empty Input</small>
+     <input type="email" placeholder="Email" class="form-control" name="email" id="email">
+      <small class="form-text">Empty Input</small>
+     <input type="password" placeholder="Kennwort" class="form-control" name="password" id="password">
+      <small class="form-text">Empty Input</small>
+     <input type="password" placeholder="Kennwort bestätigen" class="form-control" name="password2" id="password2">
+     <small class="form-text">Empty Input</small>
+     <button type="submit" class="btn btn-primary">Anmelden</button>
+    </form>
+   </div>
+   <!--                     End Sign up Container                            -->
+
+  <!--                     Start Sign In Container                            -->
+   <div class="form-container sign-in-container">
+    <form action="#" class="register-in" method="post">
+     <h1>Einloggen</h1>
+     <div class="social-container">
+      <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+      <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+      <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+     </div>
+     <span>oder benutze Ihren Account</span>
+     <input type="email" placeholder="Email" class="form-control_in" name="email-in" id="email-in">
+      <small class="form_text_in">Empty Input</small>
+     <input type="password" placeholder="Kennwort" class="form-control_in" name="password-in" id="password-in">
+      <small class="form_text_in">Empty Input</small>
+     <a href="#">Kennwort vergessen?</a>
+     <button type="submit" class="btn btn-primary-in">Einloggen</button>
+    </form>
+   </div>
+   <!--                     End Sign In Container                            -->
+
+   <!--                     Start Moving Overlay Container                   -->
+   <div class="overlay-container">
+    <div class="overlay">
+     <div class="overlay-panel overlay-left">
+      <h1>Willkommen zurück!</h1>
+      <p>Um mit uns in Verbindung zu bleiben, loggen Sie sich bitte mit Ihren persönlichen Daten ein</p>
+      <button class="ghost" id="signIn">Zu Einloggen</button>
+     </div>
+     <div class="overlay-panel overlay-right">
+      <h1>Haben Sie noch Kein Konto!</h1>
+      <p>Geben Sie Ihre persönlichen Daten ein und starten Sie Ihre Reise mit uns</p>
+      <button class="ghost" id="signUp">Zu Anmelden</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--                     Start Moving Overlay Container                   -->
+
+  <!--              Footer               -->
+  <footer>
+      <div class="flex container-footer">
+          <div class="footer-about">
+              <h5>Über Mein Immo</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+          </div>
+
+          <div class="footer-quick-links">
+              <h5>Quick Links</h5>
+              <ul>
+                  <li><a href="#">Über Uns</a></li>
+                  <li><a href="#">Leistungen</a></li>
+                  <li><a href="#">Referenzen</a></li>
+                  <li><a href="#">Kontaktiere uns</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-subscribe">
+              <h5>Abonniere unseren Newsletter</h5>
+              <div id="subscribe-container">
+                  <input type="text" placeholder="Enter Email" />
+                  <button class="right-rounded">Senden</button>
+              </div>
+
+              <h5 class="follow-us">Folge Uns</h5>
+              <ul>
+                  <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                  <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+              </ul>
+          </div>
+      </div>
+
+      <small>
+            Copyright &copy; 2020 Alle Rechte vorbehalten | by <a href="https://www.sae.edu/deu/de/campus/hamburg">Immo Mia</a>
+        </small>
+        <i class="fa fa-angle-up" aria-hidden="true" id="back-to-top" onclick="scrollToTop();return false;"></i>
+    </footer>
+
+    <script src="js/script.js" charset="utf-8"></script>
+    <script src="js/sign.js" charset="utf-8"></script>
+  </body>
+</html>

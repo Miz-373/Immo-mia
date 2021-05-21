@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Immo Mia | Basic Gallery </title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="Stylesheet" type="text/css" href="css/gallery.css">
+</head>
+<body>
+  <header>
+    <!--             Navbar + Burger              -->
+          <nav>
+                <div class="logo">
+                    <img src="img/header-logo/logo-imo.png">
+                </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="kontakt.html">Kontakt</a>
+                </li>
+                <li>
+                    <a href="sign.html">Sign In / Up</a>
+                </li>
+            </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+    </header>
+      
+       <!-- Container for the image gallery -->
+      <div class="container">
+
+        <div class="wide-container">
+          <!-- Number text box -->
+          <div class="numbertext">1 / 12</div>
+          <!-- Full-width images with number text -->
+          <img src="img/gallery/img1.jpg" data-caption="Moderne Wohnzimmer">
+          <img src="img/gallery/img2.jpg" data-caption="Klassische Aufbau">
+          <img src="img/gallery/img3.jpg" data-caption="Modernes Geschwungenes Design">
+          <img src="img/gallery/img4.jpg" data-caption="Holz Interieur">
+          <img src="img/gallery/img5.jpg" data-caption="Familien Designs">
+          <img src="img/gallery/img6.jpg" data-caption="20 Jahre Ziegeldach Garantie">
+          <img src="img/gallery/img7.jpg" data-caption="Palace Design">
+          <img src="img/gallery/img8.jpg" data-caption="Sommer Villa">
+          <img src="img/gallery/img9.jpg" data-caption="Breites Interface">
+          <img src="img/gallery/img10.jpg" data-caption="Moderne Holz Interieur">
+          <img src="img/gallery/img11.jpg" data-caption="Designed Fur Wald">
+          <img src="img/gallery/img12.jpg" data-caption="Dunkele Designs">
+          <!-- Caption text box -->
+          <div class="caption-container">Caption</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+
+       <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_1t.jpg" data-index="0">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_2t.jpg" data-index="1">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_3t.jpg" data-index="2">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_4t.jpg" data-index="3">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_5t.jpg" data-index="4">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_6t.jpg" data-index="5">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_7t.jpg" data-index="6">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_8t.jpg" data-index="7">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_9t.jpg" data-index="8">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_10t.jpg" data-index="9">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_11t.jpg" data-index="10">
+          </div>
+          <div class="column">
+            <img class="thumb" src="img/gallery/img_12t.jpg" data-index="11">
+          </div>
+        </div>
+      <!--              Slider               -->
+      <div class="container-slider">
+          <h1 class="header-between">Bieten Wir auch verschiedene moderne oder klassische Innenarchitektur</h1>
+      </div>
+      <div class="slidercontainer"> 
+        <div class="showSlide fade">  
+            <img src="img/slider/img1.jpg" />  
+            <div class="content">Slide1 Heading</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slider/img2.jpg" />  
+            <div class="content">Slide2 Heading</div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="img/slider/img3.jpg" />  
+            <div class="content">Slide3 Heading</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slider/img4.jpg" />  
+            <div class="content">Slide4 Heading</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slider/img5.jpg" />  
+            <div class="content">Slide5 Heading</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slider/img6.jpg" />  
+            <div class="content">Slide6 Heading</div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="img/slider/img7.jpg" />  
+            <div class="content">Slide7 Heading</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slider/img8.jpg" />  
+            <div class="content">Slide8 Heading</div>  
+        </div> 
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)">❯</a>  
+    </div>
+
+      <!--              Footer               -->
+
+      <footer>
+          <div class="flex container-footer">
+              <div class="footer-about">
+                  <h5>Über Mein Immo</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+              </div>
+
+              <div class="footer-quick-links">
+                  <h5>Quick Links</h5>
+                  <ul>
+                      <li><a href="#">Über Uns</a></li>
+                      <li><a href="#">Leistungen</a></li>
+                      <li><a href="#">Referenzen</a></li>
+                      <li><a href="#">Kontaktiere uns</a></li>
+                  </ul>
+              </div>
+
+              <div class="footer-subscribe">
+                  <h5>Abonniere unseren Newsletter</h5>
+                  <div id="subscribe-container">
+                      <input type="text" placeholder="Enter Email" />
+                      <button class="right-rounded">Senden</button>
+                  </div>
+
+                  <h5 class="follow-us">Folge Uns</h5>
+                  <ul>
+                      <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                      <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                      <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                      <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <small>
+            Copyright &copy; 2020 Alle Rechte vorbehalten | by <a href="https://www.sae.edu/deu/de/campus/hamburg">Immo Mia</a>
+        </small>
+        <i class="fa fa-angle-up" aria-hidden="true" id="back-to-top" onclick="scrollToTop();return false;"></i>
+    </footer>
+
+      <script src="js/script.js" charset="utf-8"></script>
+      <script src="js/gallery.js" charset="utf-8"></script>
+</body>
+</html>
